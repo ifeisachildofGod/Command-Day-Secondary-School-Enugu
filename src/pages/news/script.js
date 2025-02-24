@@ -99,60 +99,61 @@ mainElement.setHTMLUnsafe(body_text)
 rightSideBarList.setHTMLUnsafe(right_sidebar_text)
 
 document.addEventListener("DOMContentLoaded", function () {
-    // Get the image container (this is the only HTML you write)
-    const imageContainer = document.querySelector('.image-container');
-    
-    // Wrap the image container in a carousel wrapper (added via JS)
-    const carouselWrapper = document.createElement('div');
-    carouselWrapper.classList.add('carousel-wrapper');
-    imageContainer.parentNode.insertBefore(carouselWrapper, imageContainer);
-    carouselWrapper.appendChild(imageContainer);
+    // Loops through all occurences of image-container and wraps them in whatever I want (this is the only HTML you write)
+    for (const imageContainer of document.getElementsByClassName('image-container')) {
+        // Wrap the image container in a carousel wrapper (added via JS)
 
-    // Create navigation buttons (added via JS)
-    const prevButton = document.createElement('button');
-    prevButton.classList.add('carousel-button', 'prev-button');
-    prevButton.innerHTML = '&#9664;'; // left arrow
+        const carouselWrapper = document.createElement('div');
+        carouselWrapper.classList.add('carousel-wrapper');
+        imageContainer.parentNode.insertBefore(carouselWrapper, imageContainer);
+        carouselWrapper.appendChild(imageContainer);
 
-    const nextButton = document.createElement('button');
-    nextButton.classList.add('carousel-button', 'next-button');
-    nextButton.innerHTML = '&#9654;'; // right arrow
+        // Create navigation buttons (added via JS)
+        const prevButton = document.createElement('button');
+        prevButton.classList.add('carousel-button', 'prev-button');
+        prevButton.innerHTML = '&#9664;'; // left arrow
 
-    carouselWrapper.appendChild(prevButton);
-    carouselWrapper.appendChild(nextButton);
+        const nextButton = document.createElement('button');
+        nextButton.classList.add('carousel-button', 'next-button');
+        nextButton.innerHTML = '&#9654;'; // right arrow
 
-    // Set up carousel functionality
-    const images = imageContainer.querySelectorAll('img');
-    const totalImages = images.length;
-    let currentIndex = 0;
+        carouselWrapper.appendChild(prevButton);
+        carouselWrapper.appendChild(nextButton);
 
-    function updateCarousel() {
-      const wrapperWidth = carouselWrapper.clientWidth;
-      // Shift the container to show the current image
-      imageContainer.style.transform = `translateX(-${currentIndex * wrapperWidth}px)`;
-      // Disable the buttons when at the boundaries
-      prevButton.disabled = (currentIndex === 0);
-      nextButton.disabled = (currentIndex === totalImages - 1);
+        // Set up carousel functionality
+        const images = imageContainer.querySelectorAll('img');
+        const totalImages = images.length;
+        let currentIndex = 0;
+
+        function updateCarousel() {
+        const wrapperWidth = carouselWrapper.clientWidth;
+        // Shift the container to show the current image
+        imageContainer.style.transform = `translateX(-${currentIndex * wrapperWidth}px)`;
+        // Disable the buttons when at the boundaries
+        prevButton.disabled = (currentIndex === 0);
+        nextButton.disabled = (currentIndex === totalImages - 1);
+        }
+
+        prevButton.addEventListener('click', function () {
+        if (currentIndex > 0) {
+            currentIndex--;
+            updateCarousel();
+        }
+        });
+
+        nextButton.addEventListener('click', function () {
+        if (currentIndex < totalImages - 1) {
+            currentIndex++;
+            updateCarousel();
+        }
+        });
+
+        // Update carousel on window resize (to account for width changes)
+        window.addEventListener('resize', updateCarousel);
+
+        // Initialize carousel
+        updateCarousel();
     }
-
-    prevButton.addEventListener('click', function () {
-      if (currentIndex > 0) {
-        currentIndex--;
-        updateCarousel();
-      }
-    });
-
-    nextButton.addEventListener('click', function () {
-      if (currentIndex < totalImages - 1) {
-        currentIndex++;
-        updateCarousel();
-      }
-    });
-
-    // Update carousel on window resize (to account for width changes)
-    window.addEventListener('resize', updateCarousel);
-
-    // Initialize carousel
-    updateCarousel();
 });
 
 

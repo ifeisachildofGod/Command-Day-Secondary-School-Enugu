@@ -11,8 +11,13 @@ function init () {
     
     const body = document.documentElement.getElementsByTagName("body")[0]
 
-    body.setHTMLUnsafe(body.innerHTML + footerTag)
+    body.setHTMLUnsafe(body.innerHTML + footerTag.replaceAll('../../../', './').replaceAll('../../res', './src/res').replaceAll('../', './src/pages/'))
 }
 
 const recievedInformation = getData()
 init()
+
+
+fetch("data.json").then((respone) => {
+    console.log(respone.text())
+})
