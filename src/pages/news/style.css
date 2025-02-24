@@ -1,0 +1,127 @@
+
+#body {
+    margin: 50px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#text-body {
+    display: block;
+    box-sizing: border-box;
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+
+.topic {
+    display: flex;
+    width: calc(100% - 40px);
+    margin-bottom: 80px;
+    place-content: center;
+}
+
+.topic div {
+    width: 100%;
+}
+
+.text-container .text-2, .text-container .read-more, .text-container .text {
+    text-align: center;
+}
+
+.text-container .text {
+    margin-bottom: 40px;
+}
+
+.text-2 {
+    margin-top: 0px;
+}
+
+/* .image-container {
+    display: flex;
+    text-align: center;
+    box-sizing: border-box !important;
+} */
+
+/* .image-container img {
+    max-width: 80%;
+    align-self: center;
+} */
+
+.link-button {
+    color: var(--header-bg-color);
+    background-color: var(--header-text-color);
+    align-self: center;
+    width: 50px;
+}
+
+.link-button:hover {
+    border: solid 1px var(--header-text-color);
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+}
+
+.date-text {
+    font-size: 20px;
+}
+
+.bottom-part {
+    min-width: 100%;
+    display: flex;
+}
+.bottom-part * {
+    width: 100%;
+}
+
+
+
+/* Carousel wrapper (added dynamically via JS) */
+.carousel-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 500px; /* adjust as needed */
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+}
+
+/* Image container styling (HTML remains unchanged) */
+.image-container {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+/* Each image fills the carousel's width */
+.image-container img {
+    width: 100%;
+    place-self: center;
+    /* flex-shrink: 0; */
+}
+
+/* Navigation button styling */
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+
+.carousel-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+
+

@@ -1,0 +1,136 @@
+
+
+#body {
+    margin: 50px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#text-body {
+    display: block;
+    box-sizing: border-box;
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+
+.topic {
+    display: flex;
+    width: calc(100% - 40px);
+    margin-bottom: 80px;
+    place-content: center;
+}
+
+.topic div {
+    width: 100%;
+}
+
+.text-container .text-2, .text-container .read-more, .text-container .text {
+    text-align: center;
+}
+
+.text-container .text {
+    margin-bottom: 40px;
+}
+
+.text-2 {
+    margin-top: 0px;
+}
+
+.image-container {
+    display: flex;
+    text-align: center;
+    box-sizing: border-box !important;
+}
+
+.image-container img {
+    max-width: 80%;
+    align-self: center;
+    height: auto;
+    margin: 30px;
+}
+
+.link-button {
+    color: var(--header-bg-color);
+    background-color: var(--header-text-color);
+    align-self: center;
+    width: 50px;
+}
+
+.link-button:hover {
+    border: solid 1px var(--header-text-color);
+    background-color: var(--header-bg-color);
+    color: var(--header-text-color);
+}
+
+.bottom-part {
+    min-width: 100%;
+    display: flex;
+}
+.bottom-part * {
+    width: 100%;
+}
+
+
+
+/* 
+#body {
+    margin: 50px;
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#text-body {
+    display: block;
+    box-sizing: border-box;
+    padding-right: 10px;
+    margin-bottom: 100px;
+}
+
+.topic {
+    display: flex;
+    width: calc(100% - 40px);
+    margin-bottom: 80px;
+    place-content: center;
+}
+
+.topic div {
+    width: 50%;
+}
+
+.text-container .text-2, .text-container .read-more, .text-container .text {
+    text-align: center;
+}
+
+.text-container .text {
+    margin-bottom: 40px;
+}
+
+.text-2 {
+    margin-top: 0px;
+}
+
+.image-container {
+    text-align: center;
+    box-sizing: border-box !important;
+}
+
+.image-container img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+}
+
+.link-button {
+    align-self: center;
+}
+
+.bottom-part {
+    min-width: 100%;
+    display: flex;
+}
+
+.bottom-part * {
+    width: 100%;
+} */
