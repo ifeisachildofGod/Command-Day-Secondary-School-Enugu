@@ -1,7 +1,7 @@
 
 const GALLERY = [
     [
-        ["Getting started", "Bootstrap is a powerful, feature-packed frontend toolkit. Build anything-from prototype to production-in minutes.", "pong_logo.png"],
+        ["Getting started", "Bootstrap is a powerful, feature&horbar;packed frontend toolkit. Build anything&horbar;from prototype to production&horbar;in minutes.", "pong_logo.png"],
         [
             ["Introduction", [
                 ["Quick start", `
@@ -221,7 +221,7 @@ const FOOTER_TAG = `
                 </form>
             </div>
         </div>
-        <div id="copyright-text"><span>&copf; 2025 All Rights Reserved. Made and designed by <a href="https://www.github.com/ifeisachildofGod/">Nwufo Ifechukwu</a>, SS2 H <a href="http://cdsse.versel.app/home">CDSSE</a></span></div>
+        <div id="copyright-text"><span>&copy; 2025 All Rights Reserved. Made and designed by <a href="https://www.github.com/ifeisachildofGod/">Nwufo Ifechukwu</a>, SS2 H <a href="http://cdsse.versel.app/home">CDSSE</a></span></div>
     </footer>
 `
 

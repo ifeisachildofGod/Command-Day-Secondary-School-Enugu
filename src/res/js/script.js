@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
         // Wrap the image container in a carousel wrapper (added via JS)
         const carouselWrapper = document.createElement('div');
-        carouselWrapper.classList.add('carousel-wrapper');
+        carouselWrapper.classList.add('scroll-list-view');
         imageContainer.parentNode.insertBefore(carouselWrapper, imageContainer);
         carouselWrapper.appendChild(imageContainer);
 
@@ -33,11 +33,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Create navigation buttons (added via JS)
         const prevButton = document.createElement('button');
-        prevButton.classList.add('carousel-button', 'prev-button');
+        prevButton.classList.add('scroll-list-button', 'prev-button');
         prevButton.innerHTML = '&#9664;'; // left arrow
 
         const nextButton = document.createElement('button');
-        nextButton.classList.add('carousel-button', 'next-button');
+        nextButton.classList.add('scroll-list-button', 'next-button');
         nextButton.innerHTML = '&#9654;'; // right arrow
 
         carouselWrapper.appendChild(prevButton);

@@ -413,7 +413,7 @@ ol li {
 
 
 /* Carousel wrapper with fixed height */
-.carousel-wrapper {
+.scroll-list-view {
     position: relative;
     width: 100%;
     max-width: 500px; /* Adjust as needed */
@@ -445,7 +445,7 @@ ol li {
 }
 
 /* Navigation button styling */
-.carousel-button {
+.scroll-list-button {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -465,7 +465,7 @@ ol li {
     right: 10px;
 }
 
-.carousel-button:disabled {
+.scroll-list-button:disabled {
     opacity: 0.5;
-    cursor: not-allowed;
+    /* cursor: not-allowed; */
 }
