@@ -52,7 +52,7 @@ const NEWS = [
         highest score on all his WAEC papers and we are truly proud of this student.`,
         ['15th', 10, 2021],
         ["default-image.png", "default-image.png", "default-image.png", "default-image.png"],
-        "https://cdsse.vercel.app/gallery/"
+        "https://cdsse.vercel.app/gallery/index.html"
     ],
     [
         "Stallion house WON!!!!!",
@@ -110,11 +110,11 @@ const FOOTER_TAG = `
             <div id="footer-center-div">
                 <span class="text-3">Menu</span>
                 <div class="footer-main-info-options">
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../../../">Home</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../about/">About</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../gallery/">Gallery</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../contact/">Contact</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../news/">News</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../../../index.html">Home</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../about/index.html">About</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../gallery/index.html">Gallery</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../contact/index.html">Contact</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../news/index.html">News</a></span>
                 </div>
             </div>
             <div id="footer-right-div">
@@ -127,7 +127,7 @@ const FOOTER_TAG = `
                 </form>
             </div>
         </div>
-        <div id="copyright-text"><span>&copy; 2025 All Rights Reserved. Made and designed by <a href="https://www.github.com/ifeisachildofGod/" target="_blank">Nwufo Ifechukwu</a>, SS2 H <a href="http://cdsse.versel.app/home" target="_blank">CDSSE</a></span></div>
+        <div id="copyright-text"><span>&copy; 2025 All Rights Reserved. Made and designed by <a href="https://www.github.com/ifeisachildofGod/index.html" target="_blank">Nwufo Ifechukwu</a>, SS2 H <a href="http://cdsse.versel.app/home" target="_blank">CDSSE</a></span></div>
     </footer>
 `
 
