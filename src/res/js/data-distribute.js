@@ -204,11 +204,11 @@ const FOOTER_TAG = `
             <div id="footer-center-div">
                 <span class="text-3">Menu</span>
                 <div class="footer-main-info-options">
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../../../index.html">Home</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../about/index.html">About</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../gallery/index.html">Gallery</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../history/index.html">History</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../news/index.html">News</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../../../">Home</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../about/">About</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../gallery/">Gallery</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../history/">History</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../news/">News</a></span>
                 </div>
             </div>
             <div id="footer-right-div">
