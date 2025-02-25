@@ -35,7 +35,7 @@ header {
 #header-icons {
     user-select: none;
     height: min-content;
-    background-color: rgb(calc(var(--theme-r) - 20), calc(var(--theme-g) - 130), calc(var(--theme-b) + 50));
+    background-color: rgb(calc(var(--theme-r) - 20), calc(var(--theme-g) - 130), calc(var(--theme-b) * 3));
     display: flex;
     padding: 20px;
     align-items: center;
