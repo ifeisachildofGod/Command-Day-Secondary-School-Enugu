@@ -149,7 +149,7 @@ const NEWS = [
         and promoting a hardworking demeanour for the young man. <strong>Master Ubgala Ekene Ezekiel</strong> got the
         highest score on all his WAEC papers and we are truly proud of this student.`,
         ['15th', 10, 2021],
-        ["news1.jpg", "news2.png"],
+        ["default-image.png", "default-image.png", "default-image.png", "default-image.png"],
         "https://cdsse.vercel.app/gallery/"
     ],
     [
@@ -170,7 +170,7 @@ const NEWS = [
         </ul>
         `,
         ['22th', 2, 2025],
-        ["news2.png"],
+        ["default-image.png", "default-image.png", "default-image.png", "default-image.png"],
         "https://cdsse.vercel.app/gallery/"
     ]
 ]
@@ -182,7 +182,7 @@ const ABOUT = [
         <strong>Nwufo Ifechukwu</strong> of SS2 H is the sole creator of this professional looking
         app. It looks and feels better than the official <a class="link" href="http://cdsse.versel.app/home">CDSSE website</a>.
         Master Ifechukwu is truly a specimen of a human being, very good-looking, and very handsome`,
-        ["about1.jpg"],
+        ["default-image.png", "default-image.png", "default-image.png", "default-image.png"],
         "https://github.com/ifeisachildofGod/"
     ]
 ]

@@ -18,6 +18,3 @@ const recievedInformation = getData()
 init()
 
 
-fetch("data.json").then((respone) => {
-    console.log(respone.text())
-})
