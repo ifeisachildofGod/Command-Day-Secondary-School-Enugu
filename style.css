@@ -3,8 +3,7 @@
     margin-bottom: 100px;
 }
 
-.text-1 {
-    font-size: 80px;
+.text-6 {
     text-align: center;
 }
 
@@ -17,7 +16,8 @@
 .text {
     color: black;
     font-size: 20px;
-    text-align: center;
+    margin: 20px;
+    /* text-align: center; */
 }
 
 #carousel {
@@ -31,7 +31,7 @@
 #carousel div {
     display: flex;
     align-items: center;
-    animation: scroll 20s linear infinite;
+    animation: scroll 40s linear infinite;
 
     height: inherit;
 }

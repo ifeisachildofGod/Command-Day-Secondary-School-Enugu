@@ -1,0 +1,72 @@
+
+#body {
+    width: 100%;
+    display: flex;
+    margin: 0px;
+}
+
+#body div {
+    width: 100%;
+}
+
+.contact-form {
+    margin-right: 40px;
+}
+
+.contact-info {
+    margin-left: 40px;
+}
+
+.contact-form form * {
+    font-size: 20px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.row div {
+    width: 50%;
+    display: flex;
+    place-content: center;
+}
+
+.row div input, .row div textarea {
+    --padding: 20px;
+    --margin: 10px;
+
+    resize: none;
+    margin: var(--margin);
+    padding: var(--padding);
+    border-radius: var(--padding);
+    outline: none;
+    border: solid 1px black;
+    width: calc(100% - (var(--padding) * 2) - (var(--margin) * 2));
+}
+
+.row div textarea {
+    height: 130px;
+}
+
+.button-row {
+    display: flex;
+    gap: 20px;
+}
+
+.button-row input {
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: var(--theme-color);
+    color: var(--header-text-color);
+    transition: 500ms;
+    outline: none;
+    border: solid 1px black;
+}
+
+.button-row input:hover {
+    background-color: black;
+    color: white;
+}
+

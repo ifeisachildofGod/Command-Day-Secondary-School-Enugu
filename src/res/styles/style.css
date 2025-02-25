@@ -274,11 +274,11 @@ a.footer-main-info-menu-option:hover {
     font-weight: bold;
 }
 
-.text, a.link, .text-5, ul li {
+.text, a.link, .text-5, ul li, ol li {
     font-size: var(--general-font-size);
     font-weight: lighter;
     word-spacing: 1.5px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     color: rgb(33, 37, 41);
     font-size: 16px;
     line-height: 24px;
@@ -287,6 +287,12 @@ a.footer-main-info-menu-option:hover {
 .text-5 {
     color: rgb(calc(var(--theme-r) - 40), calc(var(--theme-g) - 140), calc(var(--theme-b) + 150));
     font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-6 {
+    font-size: 80px;
+    font-weight: 500;
+    color: var(--theme-color);
 }
 
 a.link {
@@ -326,15 +332,14 @@ a.link:hover {
 
 ul li {
     list-style: disc outside none;
-    text-align: left;
     text-size-adjust: 100%;
     margin-bottom: 10px;
 }
 
 ol li {
-    text-align: left;
     text-size-adjust: 100%;
     margin-bottom: 10px;
+
 }
 
 
@@ -410,7 +415,6 @@ ol li {
 .text-2:hover .text-2-anchor-link {
     display: unset;
 }
-
 
 /* Carousel wrapper with fixed height */
 .scroll-list-view {

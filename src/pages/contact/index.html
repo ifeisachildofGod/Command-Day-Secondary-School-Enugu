@@ -6,9 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../res/styles/style.css">
-    <link rel="stylesheet" href="../history/style.css">
+    <link rel="stylesheet" href="../contact/style.css">
     <link rel="icon" href="../../res/images/logo.png">
-    <title>History | Command Day Secondary School, Enugu</title>
+    <title>Contact | Command Day Secondary School, Enugu</title>
 </head>
 
 <body>
@@ -31,22 +31,55 @@
                 <span class="header-option"><a href="../../../">Home</a></span>
                 <span class="header-option"><a href="../about/">About</a></span>
                 <span class="header-option"><a href="../gallery/">Gallery</a></span>
-                <span class="header-option header-option-focused"><a href="../history/">History</a></span>
                 <span class="header-option"><a href="../news/">News</a></span>
+                <span class="header-option header-option-focused"><a href="../contact/">Contact</a></span>
             </div>
         </div>
     </header>
 
     <div id="body">
-        <div id="right-sidebar">
-            <h1 id="right-sidebar-header">On this page</h1>
-            <hr style="background-color: rgb(92, 92, 92); margin-right: 10px; border-radius: 20px; margin-left: 20px;">
-            <ul id="right-sidebar-list">
-                
-            </ul>
+        <div class="contact-info">
+            <h1 class="text-6" style="font-size: 60px;">Contact Information</h1>
+            <h4 class="text-4">Location & Address</h4>
+            <p class="text">
+                Command Day Secondary School Enugu.<br>
+                Abakpa Military Cantonment,<br>
+                P.M.B 01565, Enugu, Nigeria.
+            </p>
+            <br>
+            <h4 class="text-4">Contact Phone Number</h4>
+            <p class="text">
+                +2347034605940
+                +2348062498296
+            </p>
+            <br>
+            <h4 class="text-4">Email Address</h4>
+            <p class="text">info@cdssenugu.org</p>
+            
         </div>
-
-        <div id="main"> 
+        <div class="contact-form">
+            <h1 class="text-6" style="font-size: 60px;">Contact Form</h1>
+            <form action="." method="post">
+                <div class="row">
+                    <div><input type="text" name="firstname" placeholder="First Name" required></div>
+                    <div><input type="text" name="lastname" placeholder="Last Name" required></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div><input type="email" name="email" placeholder="Email Address" required></div>
+                    <div><input type="tel" name="telephone" placeholder="Phone Number" required></div>
+                </div>
+                <br>
+                <div class="row">
+                    <div><textarea name="message"  placeholder="Message"></textarea></div>
+                </div>
+                
+                <br>
+                <div class="button-row">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear">
+                </div>
+            </form>
         </div>
     </div>
 

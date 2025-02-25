@@ -1,76 +1,74 @@
 
+.gallery {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.gallery-pictures {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* place-content: center; */
+    width: fit-content;
+    gap: 70px;
+}
+
+.gallery-picture {
+    --width: 200px;
+    --padding: 20px;
+
+    width: calc(var(--width) + (var(--padding) * 2));
+    padding: var(--padding);
+    background-color: var(--header-bg-color);
+    height: auto;
+    min-height: 240px;
+}
+
+.gallery-picture-image-container {
+    background-color: rgba(0, 0, 0, 0.308);
+    display: flex;
+    width: 100%;
+    height: 150px;
+    place-content: center;
+}
+
+.gallery-picture-image-container img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    flex-shrink: 0;
+}
+
+.gallery-picture p.text {
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+}
+
+.gallery-picture a.link-button {
+    font-size: 20px;
+    background: none;
+    border: none;
+    border-radius: 0px;
+}
+
+.gallery-picture a.link-button:hover {
+    color: rgb(199, 199, 199);
+}
+
+
+
 #body {
     display: grid;
     column-gap: 24px;
-}
-
-#left-sidebar {
-    position: sticky;
-    top: 0px;
-    height: calc(100vh - var(--header-height));
-    padding-left: 0.25rem;
-    margin-left: -0.25rem;
-    padding-right: 20px;
-    overflow-y: auto;
-    display: block !important;
-    display: list-item;
-    grid-row: 1;
-    grid-column: 1;
-}
-
-
-.left-sidebar-section {
-    list-style: none;
-}
-
-
-.left-sidebar-sub-list {
-    padding-left: 25px;
-}
-
-.left-sidebar-header {
-    color: rgb(36, 36, 36);
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
-.left-sidebar-header img {
-    height: 20px;
-    margin-top: 30px;
-    margin-right: 10px;
-}
-
-#left-sidebar-list li ul li {
-    list-style: none;
-    margin-top: 17px;
-}
-
-.left-sidebar-link {
-    border-radius: 5px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    font-size: 15px;
-    border: none;
-    padding: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
-    color: var(--left-sidebar-text-color);
-    text-decoration: none;
-    user-select: none;
-    margin-bottom: var(--sidebar-spacing);
-}
-
-.left-sidebar-link:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-    color: black;
-    cursor: pointer;
-}
-
+} 
 
 #middle-area {
     display: grid;
     grid-row: 1;
-    grid-column: 2;
+    grid-column: 1;
     padding-top: 30px;
 }
 
@@ -79,10 +77,6 @@
     box-sizing: border-box;
     padding-right: 10px;
     margin-bottom: 100px;
-}
-
-#middle-area #text-body * {
-    margin: 0px;
 }
 
 

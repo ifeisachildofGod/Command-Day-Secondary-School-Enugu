@@ -1,136 +1,38 @@
 
-const GALLERY = [
+const GALLERY =[
     [
-        ["Getting started", "Bootstrap is a powerful, feature&horbar;packed frontend toolkit. Build anything&horbar;from prototype to production&horbar;in minutes.", "pong_logo.png"],
-        [
-            ["Introduction", [
-                ["Quick start", `
-                    <p class="text">
-                        Get started by including Bootstrap’s production-ready
-                        CSS and JavaScript via CDN without the need for any build
-                        steps. See it in practice with this <a class="link">Bootstrap CodePen demo</a>.
-                    </p>
-                    <br>
-                    <ol>
-                        <li>
-                            <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-                        </li>
-                        <li>
-                            <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-                            <ul>
-                                <li>
-                                    <span class="text">Do not do this</span>
-                                </li>
-                                <li>
-                                    <span class="text">Do that</span>
-                                </li>
-                            </ul>
-                        </li>
-                    </ol>
-                    `
-                ],
-                ["Reg", `
-                    <p class="text">
-                        Get started by including Bootstrap’s production-ready
-                        CSS and JavaScript via CDN without the need for any build
-                        steps. See it in practice with this <a class="link">Bootstrap CodePen demo</a>.
-                    </p>
-                    <br>
-                    <ol>
-                        <li>
-                            <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-                        </li>
-                        <li>
-                            <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-                        </li>
-                    </ol>`
-                ],
-                ["Info", `
-                    <p class="text">
-                        Get started by including Bootstrap’s production-ready
-                        CSS and JavaScript via CDN without the need for any build
-                        steps. See it in practice with this <a class="link">Bootstrap CodePen demo</a>.
-                    </p>
-                    <br>
-                    <ol>
-                        <li>
-                            <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-                        </li>
-                        <li>
-                            <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-                        </li>
-                    </ol>`
-                ]]], ["Download", ""], ["Parcel", ""], ["Vite", ""]
-    ]
-    ],
-    [
-        ["Customize", "How will you customize your work space, bootstrap, stramlines that process", "pong_logo.png"],
-        [
-            ["Overview", []],
-            ["Options", []],
-            ["Sass", []],
-            ["Colour", []]
+        "Graduation", [
+            [``, "default-image.png", ""],
+            [``, "default-image.png", ""],
+            [``, "default-image.png", ""]
         ]
-    ]
-]
-
-const HISTORY = [
-    ["1st June, 1993", `
-        <p class="text">
-            Get started by including Bootstrap’s production-ready
-            CSS and JavaScript via CDN without the need for any build
-            steps. See it in practice with this <a class="link">Bootstrap CodePen demo</a>.
-        </p>
-        <br>
-        <ol>
-            <li>
-                <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-            </li>
-            <li>
-                <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-                <ul>
-                    <li>
-                        <span class="text">Do not do this</span>
-                    </li>
-                    <li>
-                        <span class="text">Do that</span>
-                    </li>
-                </ul>
-            </li>
-        </ol>
-        `
-    ],
-    ["Reg", `
-        <p class="text">
-            Get started by including Bootstrap’s production-ready
-            CSS and JavaScript via CDN without the need for any build
-            steps. See it in practice with this <a class="link">Bootstrap CodePen demo</a>.
-        </p>
-        <br>
-        <ol>
-            <li>
-                <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-            </li>
-            <li>
-                <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-            </li>
-        </ol>`
-    ],
-    ["Info", `
-        <p class="text">
-            Get started by including Bootstrap’s production-ready
-            CSS and JavaScript via CDN without the need for any build
-            steps. See it in practice with this <a class="link">Bootstrap CodePen demo</a>.
-        </p>
-        <br>
-        <ol>
-            <li>
-                <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-            </li>
-            <li>
-                <span class="text"><span class="text-4">Create a new <span class="text-5">index.html</span> file in your project root</span>. Include the <span class="text-5"> < meta name="viewport"> </span> tag as well for <a class="link">proper responive behaviour</a></span>
-            </li>
-        </ol>`
+    ], [
+        "Inter-house sports", [
+            [`2025 inter-house sports competiton: Footbal match (Stallion vs Rhinocerous)`, "default-image.png", ""],
+            [`2025 inter-house sports competiton: Parents vs Teachers 100m race `, "default-image.png", ""],
+            [`2025 inter-house sports competiton: Tug of War Competiton`, "default-image.png", ""]
+        ]
+    ], [
+        "Competitions", [
+            [`Students in 2023 annual MAN (Mathematics Association of Nigeria) Competition`, "default-image.png", ""],
+            [``, "default-image.png", ""],
+            [``, "default-image.png", ""]
+        ]
+    ], [
+        "Scholar Achievements and Awards", [
+            [`Ubgala Ekene Ezekiel of SS3 G recieves award for best overall male candidate in all subjects`, "news-images/news1.jpg", "../news/#1-Academic-Excellence-1"]
+        ]
+    ], [
+        "Corps Commanders visit", [
+            [`Quarter gaurd mounted b the students to welcome Corps Commander (NAECS)`, "default-image.png", ""],
+            [`Students of CDSSE decorate the Corps Commander (NAECS)`, "default-image.png", ""],
+            [`Presentation of portrait to the Corps Commander (NAECS)`, "default-image.png", ""],
+            [`Corps Commander (NAECS) with then Commandant Lt Col Umaru in his office`, "default-image.png", ""]
+        ]
+    ], [
+        "Extras", [
+            [`Students on excursion to the coal city mines`, "default-image.png", ""],
+        ]
     ]
 ]
 
@@ -156,34 +58,38 @@ const NEWS = [
         "Stallion house WON!!!!!",
         `On the 22nd of February, 2025 stallion (blue) house won the 8th annual inter-house sports
         competition, wining 4 out of 10 awards in the senior category, 5 out of 9 awards in the junior
-        category and the march past. These are the names of the people that won:
+        category and the march past. At the end  we will have the names of the people that won in each category but
+        we as a school are of course very proud of all our students who participated for the athletism and the will-power
+        they displayed and look forward to more from the future
         <ul>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> 100m race (seniors)</li>
-            <li>Eze Emmanuel Udochukwu <strong>|</strong> 200m race (seniors)</li>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> 400m relay race (seniors)</li>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> Tug of war (seniors)</li>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> Football (seniors)</li>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> 100m race (juniors)</li>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> 200m race (juniors)</li>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> 400m race (juniors)</li>
-            <li>Nwokoro Chiemerie Victor <strong>|</strong> Tug of war (juniors)</li>
+            <li>Name1 <strong>|</strong> 100m race (seniors)</li>
+            <li>Name2 <strong>|</strong> 200m race (seniors)</li>
+            <li>Name3 <strong>|</strong> 400m relay race (seniors)</li>
+            <li>Name4 <strong>|</strong> Tug of war (seniors)</li>
+            <li>Name5 <strong>|</strong> Football (seniors)</li>
+            <li>Name6 <strong>|</strong> 100m race (juniors)</li>
+            <li>Name7 <strong>|</strong> 200m race (juniors)</li>
+            <li>Name8 <strong>|</strong> 400m race (juniors)</li>
+            <li>Name9 <strong>|</strong> Tug of war (juniors)</li>
         </ul>
         `,
         ['22th', 2, 2025],
         ["default-image.png", "default-image.png", "default-image.png", "default-image.png"],
-        "https://cdsse.vercel.app/gallery/"
+        ""
     ]
 ]
 
 const ABOUT = [
     [
-        "Creator",
-        `This website is unique as it is made by a student of this very school,
-        <strong>Nwufo Ifechukwu</strong> of SS2 H is the sole creator of this professional looking
-        app. It looks and feels better than the official <a class="link" href="http://cdsse.versel.app/home">CDSSE website</a>.
-        Master Ifechukwu is truly a specimen of a human being, very good-looking, and very handsome`,
+        "Mandate",
+        `
+        Since our inception in 1998, our mandate is and has always been very clear, to educat and instill discipline and wisdom on these children whom we take as our own.<br><br>
+        From the very beginning our motto has been <strong>Discipline and knowledge</strong> and that to the highest degree and emphasis on the phrase. We have not spared the rod and our children (as far as we are concerned) have not spoiled in the slightest.<br><br>
+        We have strived and succeded to acheve a reputation unmatched as one of the best, if not the best government owned secondary schools in Enugu and Nigeria at large. Our mission will always be to continue in our successes and set new standards for the spuplic sector schooling in Nigeria.<br><br>
+        We want to make Nigerians wise, strong and disciplined again as the cultural and societal norms has further deteriorated and eroded due to bad western incluence. But our overall goal and that of our students, staff and Nigeria at large is to <strong><span class="text-5">Make Nigeria Great Again</span></strong>
+        `,
         ["default-image.png", "default-image.png", "default-image.png", "default-image.png"],
-        "https://github.com/ifeisachildofGod/"
+        ""
     ]
 ]
 
@@ -207,7 +113,7 @@ const FOOTER_TAG = `
                     <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../../../">Home</a></span>
                     <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../about/">About</a></span>
                     <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../gallery/">Gallery</a></span>
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../history/">History</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../contact/">Contact</a></span>
                     <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../news/">News</a></span>
                 </div>
             </div>
@@ -228,7 +134,6 @@ const FOOTER_TAG = `
 const DATA = {
     about: ABOUT,
     gallery: GALLERY,
-    history: HISTORY,
     news: NEWS,
     footerTag: FOOTER_TAG
 }
