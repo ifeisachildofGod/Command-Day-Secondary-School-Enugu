@@ -127,7 +127,7 @@ const FOOTER_TAG = `
                 </form>
             </div>
         </div>
-        <div id="copyright-text"><span>&copy; 2025 All Rights Reserved. Made and designed by <a href="https://www.github.com/ifeisachildofGod/index.html" target="_blank">Nwufo Ifechukwu</a>, SS2 H <a href="http://cdsse.versel.app/home" target="_blank">CDSSE</a></span></div>
+        <div id="copyright-text"><span>&copy; 2025 All Rights Reserved. Made and designed by <a href="https://www.github.com/ifeisachildofGod/" target="_blank">Nwufo Ifechukwu</a>, SS2 H <a href="http://cdsse.versel.app/home" target="_blank">CDSSE</a></span></div>
     </footer>
 `
 
