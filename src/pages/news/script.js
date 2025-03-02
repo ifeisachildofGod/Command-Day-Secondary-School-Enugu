@@ -55,7 +55,7 @@ for (const info of recievedInformation.news) {
             ${imageContainer}
             <div class="text-container" ${imageTextValue}>
                 <h1 class="text-2" id="${valueId}"> ${title} </h1>
-                <p class="text" style="text-align: right">${text}</p>
+                <p class="text">${text}</p>
                 <div class="bottom-part">
                     ${readMoreLink} ${dateText}
                 </div>
@@ -65,7 +65,7 @@ for (const info of recievedInformation.news) {
         <div class="topic">
             <div class="text-container"${imageTextValue}>
                 <h1 class="text-2" id="${valueId}"> ${title} </h1>
-                <p class="text" style="text-align: left">${text}</p>
+                <p class="text">${text}</p>
                 <div class="bottom-part">
                     ${dateText} ${readMoreLink}
                 </div>

@@ -473,27 +473,3 @@ ol li {
     opacity: 0.5;
     /* cursor: not-allowed; */
 }
-
-
-.footer-link-button {
-    background-color: var(--header-bg-color);
-    color: var(--header-text-color);
-    width: 150px;
-    height: 40px;
-    border-radius: 60px;
-    border: none;
-    font-weight: normal;
-    text-decoration: none;
-    transition: 500ms;
-    user-select: none;
-    cursor: pointer;
-    box-sizing: border-box;
-    text-align: center;
-    place-content: center;
-    place-items: center;
-}
-
-.footer-link-button:hover {
-    color: black;
-    background-color: white;
-}
