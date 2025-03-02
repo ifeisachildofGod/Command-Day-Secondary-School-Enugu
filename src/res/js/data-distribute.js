@@ -110,7 +110,7 @@ const FOOTER_TAG = `
             <div id="footer-center-div">
                 <span class="text-3">Menu</span>
                 <div class="footer-main-info-options">
-                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../../../index.html">Home</a></span>
+                    <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../home/index.html">Home</a></span>
                     <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../about/index.html">About</a></span>
                     <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../gallery/index.html">Gallery</a></span>
                     <span><a class="footer-main-info-menu-option" style="cursor: pointer;" href="../contact/index.html">Contact</a></span>
@@ -123,7 +123,7 @@ const FOOTER_TAG = `
                     <input class="line-edit-input" placeholder="Name" type="text"><br>
                     <input class="line-edit-input" placeholder="Phone Number" type="text" reqiured><br>
                     <input class="line-edit-input" placeholder="Email" type="email" reqiured><br>
-                    <input class="link-button" type="button" value="Submit" width="100%" style="width: 100%; margin-top: 30px;"></input>
+                    <input class="footer-link-button" type="submit" value="Submit" width="100%" style="width: 100%; margin-top: 30px;">
                 </form>
             </div>
         </div>

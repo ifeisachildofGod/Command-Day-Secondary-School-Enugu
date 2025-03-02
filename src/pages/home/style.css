@@ -1,0 +1,54 @@
+
+#body section {
+    margin-bottom: 100px;
+}
+
+.text-6 {
+    text-align: center;
+}
+
+.text-2 {
+    font-size: 80px;
+    margin: 20px;
+    font-size: 50px;
+}
+
+.text {
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+    /* text-align: center; */
+}
+
+#carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    
+    height: 500px;
+}
+
+#carousel div {
+    display: flex;
+    align-items: center;
+    animation: scroll 40s linear infinite;
+
+    height: inherit;
+}
+
+#carousel div img {
+    height: inherit; /* Set the constant height */
+    width: 100%; /* Image spans full width of the viewport */
+    flex-shrink: 0; /* Prevent images from shrinking */
+    object-fit: cover; /* Ensure image covers the area without distortion */
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-300%);
+    }
+}
+

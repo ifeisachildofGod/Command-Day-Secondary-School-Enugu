@@ -62,7 +62,7 @@
     color: var(--header-text-color);
     transition: 500ms;
     outline: none;
-    border: solid 1px black;
+    border: none;
 }
 
 .button-row input:hover {
